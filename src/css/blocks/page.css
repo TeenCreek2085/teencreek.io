@@ -1,0 +1,19 @@
+/* Page */
+.page {
+	font-family: "Rubik", sans-serif;
+	font-size: 62.5%;
+	line-height: 1.5;
+	scroll-behavior: smooth;
+}
+
+.page,
+.page__body {
+	height: 100%;
+}
+
+.page__body {
+	display: grid;
+	grid-template-rows: min-content 1fr min-content;
+	background-color: black;
+	color: white;
+}
